@@ -2,6 +2,7 @@
     <div id="home">
         <router-link v-bind:class="[$style.link]" to="/profile">profile</router-link>
         <router-link v-bind:class="[$style.link]" to="/project">project</router-link>
+        <router-link v-bind:class="[$style.link]" to="/contact">contact</router-link>
     </div>
 </template>
 
