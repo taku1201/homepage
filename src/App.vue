@@ -27,6 +27,7 @@ export default {
 .font {
     font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
+
 .container {
     background-color: #ffffff;
     max-width: 960px;

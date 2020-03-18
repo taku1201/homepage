@@ -1,11 +1,7 @@
 <template>
     <div id="home">
         <router-link v-bind:class="[$style.link]" to="/profile">profile</router-link>
-        <router-link v-bind:class="[$style.link]" to="/profile">profile</router-link>
-        <router-link v-bind:class="[$style.link]" to="/profile">profile</router-link>
-        <router-link v-bind:class="[$style.link]" to="/profile">profile</router-link>
-        <router-link v-bind:class="[$style.link]" to="/profile">profile</router-link>
-        <router-link v-bind:class="[$style.link]" to="/profile">profile</router-link>
+        <router-link v-bind:class="[$style.link]" to="/project">project</router-link>
     </div>
 </template>
 
@@ -22,8 +18,7 @@ export default {
 <style module>
 .link {
     display: block;
-    margin: 10px 0;
-    padding: 10px 0;
+    margin: 30px 0;
     color: #666666;
     font-size: 1.8em;
     font-weight: bold;
@@ -32,8 +27,7 @@ export default {
 
 .link:hover {
     display: block;
-    margin: 10px 0;
-    padding: 10px 0;
+    margin: 30px 0;
     color: #333333;
     font-size: 1.8em;
     font-weight: bold;
