@@ -24,7 +24,7 @@ export default {
     },
     methods: {
         submitForm: function() {
-            this.axios.post('/api/contact', {
+            this.axios.post('/contact', {
                 name: this.contact.name,
                 email: this.contact.email,
                 content: this.contact.content
