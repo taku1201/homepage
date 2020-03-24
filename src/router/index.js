@@ -8,6 +8,7 @@ import ContactInput from '@/views/Contact/Input.vue'
 import ContactConfirm from '@/views/Contact/Confirm.vue'
 import ContactComplete from '@/views/Contact/Complete.vue'
 import ContactError from '@/views/Contact/Error.vue'
+import NotFound from '@/views/NotFound.vue'
 
 Vue.use(VueRouter)
 
@@ -49,6 +50,11 @@ const routes = [
                 component: ContactError
             }
         ]
+    },
+    {
+        path: '*',
+        name: 'NotFound',
+        component: NotFound
     }
 ]
 
